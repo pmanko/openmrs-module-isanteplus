@@ -104,9 +104,9 @@ public class ISantePlusActivator implements ModuleActivator {
 			log.info("Installing Metadata Bundles");
 			installMetadataBundles();
 			
-			log.info("Installing iSantePlus Forms");
-			loadIsantePlusHtmlForms();
-			
+//			log.info("Installing iSantePlus Forms");
+//			loadIsantePlusHtmlForms();
+//
 			//Disable the following apps
 			appFrameworkService.disableApp("appointmentschedulingui.homeApp");
 			appFrameworkService.disableApp("appointmentschedulingui.schedulingAppointmentApp");
